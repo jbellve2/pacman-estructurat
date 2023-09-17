@@ -4,17 +4,19 @@
 
 ## Per practicar matrius
 
-        ◦ És el típic joc de pacman però fet amb matrius i caràcters.
-        ◦ Hi haurà una matriu de números sencers que serà el taulell de joc
+ - És el típic joc de pacman però fet amb matrius i caràcters.
+- Hi haurà una matriu de números sencers que serà el taulell de joc
 
 
-        ◦ Els objectes del joc es poden codificaran així, però podeu utilitzar la codificació que vullgau:
-            ▪ paret		→ núm -1	→ #
-            ▪ espai blanc	→ núm 0		→  
-            ▪ ou petit	→ núm 1		→ · 
-            ▪ ou gran	→ núm 2		→ @
-            ▪ pacman 	→ núm 3		→ < -   >-   ^-   v-  
-            ▪ fantasma	→ núm 8		→ &
+- Els objectes del joc es poden codificaran així, però podeu utilitzar la codificació que vullgau:
+  
+          ▪ paret		→ núm -1	→ #
+          ▪ espai blanc	→ núm 0		→  
+          ▪ ou petit	→ núm 1		→ · 
+          ▪ ou gran	→ núm 2		→ @
+          ▪ pacman 	→ núm 3		→ < -   >-   ^-   v-  
+          ▪ fantasma	→ núm 8		→ &
+  
 
 ![image info](pacman.png)
 
