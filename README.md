@@ -18,6 +18,7 @@
 
 ![image info](pacman.png)
 
+
 El taulell (matriu) serà una matrius de números sencers i ha de quedar així:
 
 ![image info](taulell.png)
