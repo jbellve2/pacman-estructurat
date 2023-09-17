@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+}
+
+group = 'vicent.Bellver'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url myMavenRepoReadUrl
+
+        credentials {
+            username myMavenRepoReadUsername
+            password myMavenRepoReadPassword
+        }
+    }
+}
+
+
+
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+
+    implementation 'vicent.Bellver:Colors:2.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+/*   CONFIGURACIÓ PER INCLOURE DEPENDÈNCIES REMOTES EN EL JAR:   */
+// Crea aquesta secció 'jar'
+// L'arxiu jar es genera des del menú gradle lateral dret > Tasks > Build > jar
+// Aquesta secció ha d'estar després de la secció 'dependencies'
+jar {
+    from configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    manifest { attributes 'Main-Class': 'vicent.Bellver.Main' }     // Per fer jar autoexecutable.
+}
