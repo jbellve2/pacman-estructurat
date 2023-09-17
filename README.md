@@ -12,10 +12,10 @@
   
           ▪ paret		→ núm -1	→ #
           ▪ espai blanc	→ núm 0		→  
-          ▪ ou petit	→ núm 1		→ · 
-          ▪ ou gran	→ núm 2		→ @
-          ▪ pacman 	→ núm 3		→ < -   >-   ^-   v-  
-          ▪ fantasma	→ núm 8		→ &
+          ▪ ou petit	        → núm 1		→ · 
+          ▪ ou gran	        → núm 2		→ @
+          ▪ pacman 	        → núm 3		→ < -   >-   ^-   v-  
+          ▪ fantasma	        → núm 8		→ &
   
 
 ![image info](pacman.png)
