@@ -7,7 +7,7 @@
 - El programa sols té la classe Main i mètode main(). No té cap altra classe extra, mètode extra, funció ni llibreria externa
 
 
-- Els elements del joc es poden codificaran així, però podeu utilitzar la codificació que vullgau:
+- Els elements del joc es poden codificar així, però podeu utilitzar la codificació que vullgau:
 
           ▪ paret		→ núm -1	→ #
           ▪ espai blanc	→ núm 0		→  
